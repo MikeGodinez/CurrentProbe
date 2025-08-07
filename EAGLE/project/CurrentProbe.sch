@@ -10941,7 +10941,7 @@ on some devices</text>
 <text x="73.66" y="-154.94" size="1.778" layer="97">CL31B106KAHNNNE</text>
 <text x="78.74" y="-111.76" size="1.778" layer="97">pg21:
 GAIN_SEL=0b10, gain=200mV/A, I=+-10A</text>
-<text x="83.82" y="-147.32" size="1.778" layer="97">very bright led</text>
+<text x="83.82" y="-147.32" size="1.778" layer="97">LED indicating overcurrent fault.</text>
 <text x="48.26" y="-248.92" size="1.778" layer="97">OR, AD8411AWBRZ</text>
 <text x="33.02" y="-205.74" size="1.778" layer="97" rot="R180">NCW0612MC1207FP500</text>
 <text x="63.5" y="-185.42" size="1.778" layer="97">CC1206KRX7R9BB104</text>
@@ -10952,8 +10952,11 @@ GAIN_SEL=0b10, gain=200mV/A, I=+-10A</text>
 <text x="66.04" y="121.92" size="1.778" layer="97" rot="R90">CL31B106KAHNNNE</text>
 <text x="63.5" y="93.98" size="1.778" layer="97">CL31B106KAHNNNE</text>
 <text x="27.94" y="-226.06" size="1.778" layer="97">0.12 Ohm</text>
-<text x="226.06" y="119.38" size="1.778" layer="97">Power on LED.</text>
+<text x="226.06" y="119.38" size="1.778" layer="97">LED indicating power on.</text>
 <text x="93.98" y="-231.14" size="1.778" layer="97">SJ5#1 and SJ3#2 next to each other. May bridge.</text>
+<text x="175.26" y="-35.56" size="1.778" layer="97">Connect one of 4 options to SELECTED_VREF .</text>
+<text x="157.48" y="-139.7" size="1.778" layer="97">If not using the op amp, connect one of the sensor outputs to FINAL_OUT .
+If using the op amp, connect OPAMP_OUT to FINAL_OUT, and connect one of the sensor outputs to PAD13.</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="50.8" y="43.18" smashed="yes" rot="MR0">
